@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.min.css' />
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/prism.min.js' data-manual></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/components/prism-python.min.js' data-manual></script>
+        <script src='nbv.js'></script>
+        <style type='text/css'>
+            body {
+                font: 10pt Helvetica Neue, Arial, sans-serif;
+                background-color: #eee;
+            }
+        </style>
+    </head>
+    <body>
+        <div id='doc'></div>
+        <script type='application/javascript'>
+            var doc = document.getElementById('doc');
+            var nb = %notebook-json%;
+            nbv.render(nb, doc);
+        </script>
+    </body>
+</html>

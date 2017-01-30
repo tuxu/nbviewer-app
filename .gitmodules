@@ -1,0 +1,3 @@
+[submodule "nbviewer.js"]
+	path = nbviewer.js
+	url = https://github.com/kokes/nbviewer.js.git
