@@ -12,7 +12,7 @@
 				<string>ipynb</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string></string>
+			<string>JupyterNotebookIcon.icns</string>
 			<key>CFBundleTypeName</key>
 			<string>Jupyter Notebook Document</string>
 			<key>CFBundleTypeOSTypes</key>

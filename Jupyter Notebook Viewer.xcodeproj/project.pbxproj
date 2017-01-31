@@ -14,6 +14,7 @@
 		21038F531E3FEFA900BDC3F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21038F511E3FEFA900BDC3F2 /* Main.storyboard */; };
 		21038F611E3FF27F00BDC3F2 /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = 21038F601E3FF27F00BDC3F2 /* template.html */; };
 		21038F631E3FF2D200BDC3F2 /* nbv.js in Resources */ = {isa = PBXBuildFile; fileRef = 21038F621E3FF2D200BDC3F2 /* nbv.js */; };
+		21B3ED731E4081DB000003D0 /* JupyterNotebookIcon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 21B3ED721E4081DB000003D0 /* JupyterNotebookIcon.iconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +25,9 @@
 		21038F4F1E3FEFA900BDC3F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21038F521E3FEFA900BDC3F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21038F541E3FEFA900BDC3F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		21038F601E3FF27F00BDC3F2 /* template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = template.html; sourceTree = "<group>"; };
+		21038F601E3FF27F00BDC3F2 /* template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = template.html; path = "Jupyter Notebook Viewer/template.html"; sourceTree = "<group>"; };
 		21038F621E3FF2D200BDC3F2 /* nbv.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = nbv.js; path = nbviewer.js/lib/nbv.js; sourceTree = SOURCE_ROOT; };
+		21B3ED721E4081DB000003D0 /* JupyterNotebookIcon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = JupyterNotebookIcon.iconset; path = icons/JupyterNotebookIcon.iconset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		21038F3D1E3FEFA900BDC3F2 = {
 			isa = PBXGroup;
 			children = (
+				21B3ED711E401F60000003D0 /* Resources */,
 				21038F481E3FEFA900BDC3F2 /* Jupyter Notebook Viewer */,
 				21038F471E3FEFA900BDC3F2 /* Products */,
 			);
@@ -64,10 +67,18 @@
 				21038F4F1E3FEFA900BDC3F2 /* Assets.xcassets */,
 				21038F511E3FEFA900BDC3F2 /* Main.storyboard */,
 				21038F541E3FEFA900BDC3F2 /* Info.plist */,
-				21038F601E3FF27F00BDC3F2 /* template.html */,
-				21038F621E3FF2D200BDC3F2 /* nbv.js */,
 			);
 			path = "Jupyter Notebook Viewer";
+			sourceTree = "<group>";
+		};
+		21B3ED711E401F60000003D0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				21038F601E3FF27F00BDC3F2 /* template.html */,
+				21038F621E3FF2D200BDC3F2 /* nbv.js */,
+				21B3ED721E4081DB000003D0 /* JupyterNotebookIcon.iconset */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21038F501E3FEFA900BDC3F2 /* Assets.xcassets in Resources */,
+				21B3ED731E4081DB000003D0 /* JupyterNotebookIcon.iconset in Resources */,
 				21038F611E3FF27F00BDC3F2 /* template.html in Resources */,
 				21038F531E3FEFA900BDC3F2 /* Main.storyboard in Resources */,
 				21038F631E3FF2D200BDC3F2 /* nbv.js in Resources */,
