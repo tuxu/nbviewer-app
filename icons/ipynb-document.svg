@@ -168,26 +168,6 @@
        d="M 2.25061,4.37943 C 1.81886,4.39135 1.39322,4.27535 1.02722,4.04602 0.661224,3.81668 0.371206,3.48424 0.193641,3.09052 0.0160762,2.69679 -0.0411078,2.25935 0.0292804,1.83321 0.0996686,1.40707 0.294486,1.01125 0.589233,0.695542 0.883981,0.37983 1.2655,0.158316 1.68581,0.0588577 2.10611,-0.0406005 2.54644,-0.0135622 2.95143,0.136572 3.35641,0.286707 3.70796,0.553234 3.96186,0.902636 4.21577,1.25204 4.3607,1.66872 4.37842,2.10027 4.39529,2.6838 4.18131,3.25044 3.78293,3.67715 3.38455,4.10387 2.83392,4.35623 2.25061,4.37943 Z"
        id="path11_fill-8"
        inkscape:connector-curvature="0" />
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter5540-7">
-      <feBlend
-         inkscape:collect="always"
-         mode="multiply"
-         in2="BackgroundImage"
-         id="feBlend5542-1" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter5540-2">
-      <feBlend
-         inkscape:collect="always"
-         mode="multiply"
-         in2="BackgroundImage"
-         id="feBlend5542-3" />
-    </filter>
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath5185">
@@ -195,6 +175,44 @@
          style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.63999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m 1634.0436,2451.4009 c 1.2296,0 28.2819,-0.2458 28.2819,-0.2458 l 0.7378,12.0506 24.347,0 3.1971,41.3161 -54.8423,2.9511 z"
          id="path5187"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter5540-5">
+      <feBlend
+         inkscape:collect="always"
+         mode="multiply"
+         in2="BackgroundImage"
+         id="feBlend5542-2" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter5540-4">
+      <feBlend
+         inkscape:collect="always"
+         mode="multiply"
+         in2="BackgroundImage"
+         id="feBlend5542-6" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5028">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5030"
+         d="m 1662.5943,2448.7205 c 0,13.8228 -0.359,13.8228 -0.359,13.8228 l 20.4649,0 4.1289,8.6168 3.0518,36.9805 -55.4707,3.7698 -8.4373,-54.7527 13.4637,-18.6696 z"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5.04713345px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5172">
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.32000512;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 1667.9155,2446.7059 0.5628,9.0051 14.0705,0.5628 8.2548,13.5077 3.5645,42.5868 -66.6005,2.2513 -4.6901,-61.5351 16.1342,-22.5128 z"
+         id="path5174"
          inkscape:connector-curvature="0" />
     </clipPath>
   </defs>
@@ -205,11 +223,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="46.367064"
-     inkscape:cx="7.3906817"
-     inkscape:cy="1028.3916"
+     inkscape:zoom="0.46347007"
+     inkscape:cx="278.67692"
+     inkscape:cy="1115.986"
      inkscape:document-units="px"
-     inkscape:current-layer="v16"
+     inkscape:current-layer="v128"
      showgrid="false"
      units="px"
      inkscape:window-width="1384"
@@ -237,40 +255,40 @@
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(80,483.63782)" />
+     transform="translate(80,483.63782)"
+     style="display:inline" />
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Overlay"
-     style="filter:url(#filter5540)"
+     style="display:inline;filter:url(#filter5540)"
      transform="translate(80,-2.6171874e-6)">
     <g
        id="v512"
        inkscape:label="#g8233">
       <image
-         sodipodi:absref="/Users/tino/Dropbox/dev/jupyter-notebook-viewer/icons/JupyterNotebookIcon.iconset/icon_512x512.png"
-         xlink:href="JupyterNotebookIcon.iconset/icon_512x512.png"
-         width="512"
-         height="512"
-         preserveAspectRatio="none"
-         style="enable-background:new;image-rendering:optimizeSpeed"
-         id="image4804"
-         x="352"
+         sodipodi:absref="/Users/tino/Dropbox/dev/jupyter-notebook-viewer/icons/Jupyter Notebook Document.iconset/icon_512x512.png"
+         xlink:href="Jupyter Notebook Document.iconset/icon_512x512.png"
+         transform="translate(0,483.63782)"
          y="-483.63782"
-         transform="translate(0,483.63782)" />
+         x="352"
+         id="image4804"
+         style="image-rendering:optimizeSpeed;enable-background:new"
+         preserveAspectRatio="none"
+         height="512"
+         width="512" />
       <text
          sodipodi:linespacing="125%"
          id="text7700"
-         y="-27.637819"
-         x="531.51483"
-         style="enable-background:new;font-style:normal;font-weight:normal;font-size:50px;line-height:125%;font-family:'Bitstream Vera Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"
-         transform="translate(0,483.63782)"><tspan
+         y="456"
+         x="492.5285"
+         style="font-style:normal;font-weight:normal;font-size:50px;line-height:125%;font-family:'Bitstream Vera Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
+         xml:space="preserve"><tspan
            style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium'"
-           y="-27.637819"
-           x="531.51483"
+           y="456"
+           x="492.5285"
            id="tspan7702"
-           sodipodi:role="line">IPYNB</tspan></text>
+           sodipodi:role="line">Notebook</tspan></text>
       <g
          id="Canvas-9"
          transform="matrix(5,0,0,5,-7701.4017,-12137.462)"
@@ -534,29 +552,28 @@
        id="v256x2"
        inkscape:label="#g8283">
       <image
-         sodipodi:absref="/Users/tino/Dropbox/dev/jupyter-notebook-viewer/icons/JupyterNotebookIcon.iconset/icon_256x256@2x.png"
-         xlink:href="JupyterNotebookIcon.iconset/icon_256x256@2x.png"
-         width="512"
-         height="512"
-         preserveAspectRatio="none"
-         style="enable-background:new;image-rendering:optimizeSpeed"
-         id="image4793"
-         x="352"
+         sodipodi:absref="/Users/tino/Dropbox/dev/jupyter-notebook-viewer/icons/Jupyter Notebook Document.iconset/icon_256x256@2x.png"
+         xlink:href="Jupyter Notebook Document.iconset/icon_256x256@2x.png"
+         transform="translate(0,483.63782)"
          y="540.36218"
-         transform="translate(0,483.63782)" />
+         x="352"
+         id="image4793"
+         style="image-rendering:optimizeSpeed;enable-background:new"
+         preserveAspectRatio="none"
+         height="512"
+         width="512" />
       <text
          xml:space="preserve"
-         style="enable-background:new;font-style:normal;font-weight:normal;font-size:50px;line-height:125%;font-family:'Bitstream Vera Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="531.51483"
-         y="996.36218"
+         style="font-style:normal;font-weight:normal;font-size:50px;line-height:125%;font-family:'Bitstream Vera Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
+         x="492.5285"
+         y="1480"
          id="text7704"
-         sodipodi:linespacing="125%"
-         transform="translate(0,483.63782)"><tspan
+         sodipodi:linespacing="125%"><tspan
            sodipodi:role="line"
            id="tspan7706"
-           x="531.51483"
-           y="996.36218"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium'">IPYNB</tspan></text>
+           x="492.5285"
+           y="1480"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium'">Notebook</tspan></text>
       <g
          figma:type="canvas"
          transform="matrix(5,0,0,5,-7701.4017,-11113.462)"
@@ -820,29 +837,28 @@
        id="v512x2"
        inkscape:label="#g8183">
       <image
-         sodipodi:absref="/Users/tino/Dropbox/dev/jupyter-notebook-viewer/icons/JupyterNotebookIcon.iconset/icon_512x512@2x.png"
-         xlink:href="JupyterNotebookIcon.iconset/icon_512x512@2x.png"
-         width="1024"
-         height="1024"
-         preserveAspectRatio="none"
-         style="enable-background:new;image-rendering:optimizeSpeed"
-         id="image4815"
-         x="864"
+         sodipodi:absref="/Users/tino/Dropbox/dev/jupyter-notebook-viewer/icons/Jupyter Notebook Document.iconset/icon_512x512@2x.png"
+         xlink:href="Jupyter Notebook Document.iconset/icon_512x512@2x.png"
+         transform="translate(0,483.63782)"
          y="28.362181"
-         transform="translate(0,483.63782)" />
+         x="864"
+         id="image4815"
+         style="image-rendering:optimizeSpeed;enable-background:new"
+         preserveAspectRatio="none"
+         height="1024"
+         width="1024" />
       <text
          sodipodi:linespacing="125%"
          id="text7712"
-         y="940.36218"
-         x="1223.0297"
-         style="enable-background:new;font-style:normal;font-weight:normal;font-size:100px;line-height:125%;font-family:'Bitstream Vera Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"
-         transform="translate(0,483.63782)"><tspan
+         y="1424"
+         x="1145.057"
+         style="font-style:normal;font-weight:normal;font-size:100px;line-height:125%;font-family:'Bitstream Vera Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
+         xml:space="preserve"><tspan
            style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium'"
-           y="940.36218"
-           x="1223.0297"
+           y="1424"
+           x="1145.057"
            id="tspan7714"
-           sodipodi:role="line">IPYNB</tspan></text>
+           sodipodi:role="line">Notebook</tspan></text>
       <g
          figma:type="canvas"
          transform="matrix(10,0,0,10,-15242.803,-23762.924)"
@@ -1106,29 +1122,28 @@
        id="v256"
        inkscape:label="#g8333">
       <image
-         sodipodi:absref="/Users/tino/Dropbox/dev/jupyter-notebook-viewer/icons/JupyterNotebookIcon.iconset/icon_256x256.png"
-         xlink:href="JupyterNotebookIcon.iconset/icon_256x256.png"
-         width="256"
-         height="256"
-         preserveAspectRatio="none"
-         style="enable-background:new;image-rendering:optimizeSpeed"
-         id="image4782"
-         x="96"
+         sodipodi:absref="/Users/tino/Dropbox/dev/jupyter-notebook-viewer/icons/Jupyter Notebook Document.iconset/icon_256x256.png"
+         xlink:href="Jupyter Notebook Document.iconset/icon_256x256.png"
+         transform="translate(0,483.63782)"
          y="-227.63782"
-         transform="translate(0,483.63782)" />
+         x="96"
+         id="image4782"
+         style="image-rendering:optimizeSpeed;enable-background:new"
+         preserveAspectRatio="none"
+         height="256"
+         width="256" />
       <text
          xml:space="preserve"
-         style="enable-background:new;font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:'Bitstream Vera Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="185.75742"
-         y="0.36217999"
+         style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:'Bitstream Vera Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
+         x="166.26425"
+         y="484"
          id="text7696"
-         sodipodi:linespacing="125%"
-         transform="translate(0,483.63782)"><tspan
+         sodipodi:linespacing="125%"><tspan
            sodipodi:role="line"
            id="tspan7698"
-           x="185.75742"
-           y="0.36217999"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium'">IPYNB</tspan></text>
+           x="166.26425"
+           y="484"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium'">Notebook</tspan></text>
       <g
          figma:type="canvas"
          transform="matrix(2.5,0,0,2.5,-3930.7009,-5812.731)"
@@ -1392,29 +1407,28 @@
        id="v128x2"
        inkscape:label="#g8433">
       <image
-         sodipodi:absref="/Users/tino/Dropbox/dev/jupyter-notebook-viewer/icons/JupyterNotebookIcon.iconset/icon_128x128@2x.png"
-         xlink:href="JupyterNotebookIcon.iconset/icon_128x128@2x.png"
-         width="256"
-         height="256"
-         preserveAspectRatio="none"
-         style="enable-background:new;image-rendering:optimizeSpeed"
-         id="image4771"
-         x="96"
+         sodipodi:absref="/Users/tino/Dropbox/dev/jupyter-notebook-viewer/icons/Jupyter Notebook Document.iconset/icon_128x128@2x.png"
+         xlink:href="Jupyter Notebook Document.iconset/icon_128x128@2x.png"
+         transform="translate(0,483.63782)"
          y="796.36218"
-         transform="translate(0,483.63782)" />
+         x="96"
+         id="image4771"
+         style="image-rendering:optimizeSpeed;enable-background:new"
+         preserveAspectRatio="none"
+         height="256"
+         width="256" />
       <text
          sodipodi:linespacing="125%"
          id="text7708"
-         y="1024.3622"
-         x="185.75742"
-         style="enable-background:new;font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:'Bitstream Vera Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"
-         transform="translate(0,483.63782)"><tspan
+         y="1508"
+         x="166.26425"
+         style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:'Bitstream Vera Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
+         xml:space="preserve"><tspan
            style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium'"
-           y="1024.3622"
-           x="185.75742"
+           y="1508"
+           x="166.26425"
            id="tspan7710"
-           sodipodi:role="line">IPYNB</tspan></text>
+           sodipodi:role="line">Notebook</tspan></text>
       <g
          id="g7572"
          transform="matrix(2.5,0,0,2.5,-3930.7009,-4788.731)"
@@ -1678,281 +1692,281 @@
        id="v128"
        inkscape:label="#g8383">
       <image
-         sodipodi:absref="/Users/tino/Dropbox/dev/jupyter-notebook-viewer/icons/JupyterNotebookIcon.iconset/icon_128x128.png"
-         xlink:href="JupyterNotebookIcon.iconset/icon_128x128.png"
-         width="128"
-         height="128"
-         preserveAspectRatio="none"
-         style="enable-background:new;image-rendering:optimizeSpeed"
-         id="image4760"
-         x="-32"
+         sodipodi:absref="/Users/tino/Dropbox/dev/jupyter-notebook-viewer/icons/Jupyter Notebook Document.iconset/icon_128x128.png"
+         xlink:href="Jupyter Notebook Document.iconset/icon_128x128.png"
+         transform="translate(0,483.63782)"
          y="-99.637817"
-         transform="translate(0,483.63782)" />
+         x="-32"
+         id="image4760"
+         style="image-rendering:optimizeSpeed;enable-background:new"
+         preserveAspectRatio="none"
+         height="128"
+         width="128" />
       <text
          sodipodi:linespacing="125%"
          id="text7692"
-         y="14.36218"
-         x="12.878711"
-         style="enable-background:new;font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:'Bitstream Vera Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"
-         transform="translate(0,483.63782)"><tspan
+         y="498"
+         x="3.132129"
+         style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:'Bitstream Vera Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
+         xml:space="preserve"><tspan
            style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium'"
-           y="14.36218"
-           x="12.878711"
+           y="498"
+           x="3.132129"
            id="tspan7694"
-           sodipodi:role="line">IPYNB</tspan></text>
+           sodipodi:role="line">Notebook</tspan></text>
       <g
-         id="g7716"
+         style="display:inline;filter:url(#filter5540);enable-background:new"
+         figma:type="canvas"
          transform="matrix(1.25,0,0,1.25,-2045.3504,-2650.3655)"
-         figma:type="canvas">
+         id="g7488-41">
         <g
-           id="g7718"
+           figma:type="group"
            style="mix-blend-mode:normal"
-           figma:type="group">
+           id="g7490-65">
           <g
-             id="g7720"
+             figma:type="group"
              style="mix-blend-mode:normal"
-             figma:type="group">
+             id="g7492-32">
             <g
-               id="g7722"
+               figma:type="group"
                style="mix-blend-mode:normal"
-               figma:type="group">
+               id="g7494-0">
               <g
-                 id="g7724"
+                 figma:type="group"
                  style="mix-blend-mode:normal"
-                 figma:type="group">
+                 id="g7496-4">
                 <g
-                   id="g7726"
+                   figma:type="group"
                    style="mix-blend-mode:normal"
-                   figma:type="group">
+                   id="g7498-2">
                   <g
-                     id="g7728"
+                     figma:type="vector"
                      style="mix-blend-mode:normal"
-                     figma:type="vector">
+                     id="g7500-0">
                     <use
-                       height="100%"
-                       width="100%"
-                       y="0"
-                       x="0"
-                       xlink:href="#path0_fill-1"
+                       id="use7502-7"
+                       style="mix-blend-mode:normal;fill:#4e4e4e"
                        transform="translate(1640.54,2474.36)"
-                       style="mix-blend-mode:normal;fill:#4e4e4e"
-                       id="use7730" />
+                       xlink:href="#path0_fill-1"
+                       x="0"
+                       y="0"
+                       width="100%"
+                       height="100%" />
                   </g>
                 </g>
                 <g
-                   id="g7732"
+                   figma:type="group"
                    style="mix-blend-mode:normal"
-                   figma:type="group">
+                   id="g7504-64">
                   <g
-                     id="g7734"
+                     figma:type="vector"
                      style="mix-blend-mode:normal"
-                     figma:type="vector">
+                     id="g7506-6">
                     <use
-                       height="100%"
-                       width="100%"
-                       y="0"
-                       x="0"
-                       xlink:href="#path1_fill-8"
+                       id="use7508-2"
+                       style="mix-blend-mode:normal;fill:#4e4e4e"
                        transform="translate(1645.68,2474.37)"
-                       style="mix-blend-mode:normal;fill:#4e4e4e"
-                       id="use7736" />
+                       xlink:href="#path1_fill-8"
+                       x="0"
+                       y="0"
+                       width="100%"
+                       height="100%" />
                   </g>
                 </g>
                 <g
-                   id="g7738"
+                   figma:type="group"
                    style="mix-blend-mode:normal"
-                   figma:type="group">
+                   id="g7510-7">
                   <g
-                     id="g7740"
+                     figma:type="vector"
                      style="mix-blend-mode:normal"
-                     figma:type="vector">
+                     id="g7512-9">
                     <use
-                       height="100%"
-                       width="100%"
-                       y="0"
-                       x="0"
-                       xlink:href="#path2_fill-4"
+                       id="use7514-9"
+                       style="mix-blend-mode:normal;fill:#4e4e4e"
                        transform="translate(1653.39,2474.26)"
-                       style="mix-blend-mode:normal;fill:#4e4e4e"
-                       id="use7742" />
+                       xlink:href="#path2_fill-4"
+                       x="0"
+                       y="0"
+                       width="100%"
+                       height="100%" />
                   </g>
                 </g>
                 <g
-                   id="g7744"
+                   figma:type="group"
                    style="mix-blend-mode:normal"
-                   figma:type="group">
+                   id="g7516-5">
                   <g
-                     id="g7746"
+                     figma:type="vector"
                      style="mix-blend-mode:normal"
-                     figma:type="vector">
+                     id="g7518-3">
                     <use
-                       height="100%"
-                       width="100%"
-                       y="0"
-                       x="0"
-                       xlink:href="#path3_fill-4"
+                       id="use7520-6"
+                       style="mix-blend-mode:normal;fill:#4e4e4e"
                        transform="translate(1660.43,2474.39)"
-                       style="mix-blend-mode:normal;fill:#4e4e4e"
-                       id="use7748" />
+                       xlink:href="#path3_fill-4"
+                       x="0"
+                       y="0"
+                       width="100%"
+                       height="100%" />
                   </g>
                 </g>
                 <g
-                   id="g7750"
+                   figma:type="group"
                    style="mix-blend-mode:normal"
-                   figma:type="group">
+                   id="g7522-0">
                   <g
-                     id="g7752"
+                     figma:type="vector"
                      style="mix-blend-mode:normal"
-                     figma:type="vector">
+                     id="g7524-0">
                     <use
-                       height="100%"
-                       width="100%"
-                       y="0"
-                       x="0"
-                       xlink:href="#path4_fill-5"
+                       id="use7526-7"
+                       style="mix-blend-mode:normal;fill:#4e4e4e"
                        transform="translate(1667.55,2472.54)"
-                       style="mix-blend-mode:normal;fill:#4e4e4e"
-                       id="use7754" />
+                       xlink:href="#path4_fill-5"
+                       x="0"
+                       y="0"
+                       width="100%"
+                       height="100%" />
                   </g>
                 </g>
                 <g
-                   id="g7756"
+                   figma:type="group"
                    style="mix-blend-mode:normal"
-                   figma:type="group">
+                   id="g7528-96">
                   <g
-                     id="g7758"
+                     figma:type="vector"
                      style="mix-blend-mode:normal"
-                     figma:type="vector">
+                     id="g7530-4">
                     <use
-                       height="100%"
-                       width="100%"
-                       y="0"
-                       x="0"
-                       xlink:href="#path5_fill-7"
+                       id="use7532-6"
+                       style="mix-blend-mode:normal;fill:#4e4e4e"
                        transform="translate(1672.47,2474.29)"
-                       style="mix-blend-mode:normal;fill:#4e4e4e"
-                       id="use7760" />
+                       xlink:href="#path5_fill-7"
+                       x="0"
+                       y="0"
+                       width="100%"
+                       height="100%" />
                   </g>
                 </g>
                 <g
-                   id="g7762"
+                   figma:type="group"
                    style="mix-blend-mode:normal"
-                   figma:type="group">
+                   id="g7534-2">
                   <g
-                     id="g7764"
+                     figma:type="vector"
                      style="mix-blend-mode:normal"
-                     figma:type="vector">
+                     id="g7536-5">
                     <use
-                       height="100%"
-                       width="100%"
-                       y="0"
-                       x="0"
-                       xlink:href="#path6_fill-0"
-                       transform="translate(1679.98,2474.24)"
+                       id="use7538-5"
                        style="mix-blend-mode:normal;fill:#4e4e4e"
-                       id="use7766" />
+                       transform="translate(1679.98,2474.24)"
+                       xlink:href="#path6_fill-0"
+                       x="0"
+                       y="0"
+                       width="100%"
+                       height="100%" />
                   </g>
                 </g>
               </g>
             </g>
             <g
-               id="g7768"
+               figma:type="group"
                style="mix-blend-mode:normal"
-               figma:type="group">
+               id="g7540-7">
               <g
-                 id="g7770"
+                 figma:type="group"
                  style="mix-blend-mode:normal"
-                 figma:type="group">
+                 id="g7542-34">
                 <g
-                   id="g7772"
+                   figma:type="vector"
                    style="mix-blend-mode:normal"
-                   figma:type="vector">
+                   id="g7544-1">
                   <use
-                     height="100%"
-                     width="100%"
-                     y="0"
-                     x="0"
-                     xlink:href="#path7_fill-2"
-                     transform="translate(1673.48,2453.69)"
+                     id="use7546-9"
                      style="mix-blend-mode:normal;fill:#767677"
-                     id="use7774" />
+                     transform="translate(1673.48,2453.69)"
+                     xlink:href="#path7_fill-2"
+                     x="0"
+                     y="0"
+                     width="100%"
+                     height="100%" />
                 </g>
               </g>
               <g
-                 id="g7776"
+                 figma:type="group"
                  style="mix-blend-mode:normal"
-                 figma:type="group">
+                 id="g7548-7">
                 <g
-                   id="g7778"
+                   figma:type="vector"
                    style="mix-blend-mode:normal"
-                   figma:type="vector">
+                   id="g7550-52">
                   <use
-                     height="100%"
-                     width="100%"
-                     y="0"
-                     x="0"
-                     xlink:href="#path8_fill-2"
+                     id="use7552-9"
+                     style="mix-blend-mode:normal;fill:#f37726"
                      transform="translate(1643.21,2484.27)"
-                     style="mix-blend-mode:normal;fill:#f37726"
-                     id="use7780" />
+                     xlink:href="#path8_fill-2"
+                     x="0"
+                     y="0"
+                     width="100%"
+                     height="100%" />
                 </g>
               </g>
               <g
-                 id="g7782"
+                 figma:type="group"
                  style="mix-blend-mode:normal"
-                 figma:type="group">
+                 id="g7554-34">
                 <g
-                   id="g7784"
+                   figma:type="vector"
                    style="mix-blend-mode:normal"
-                   figma:type="vector">
+                   id="g7556-3">
                   <use
-                     height="100%"
-                     width="100%"
-                     y="0"
-                     x="0"
-                     xlink:href="#path9_fill-6"
+                     id="use7558-9"
+                     style="mix-blend-mode:normal;fill:#f37726"
                      transform="translate(1643.21,2457.88)"
-                     style="mix-blend-mode:normal;fill:#f37726"
-                     id="use7786" />
+                     xlink:href="#path9_fill-6"
+                     x="0"
+                     y="0"
+                     width="100%"
+                     height="100%" />
                 </g>
               </g>
               <g
-                 id="g7788"
+                 figma:type="group"
                  style="mix-blend-mode:normal"
-                 figma:type="group">
+                 id="g7560-3">
                 <g
-                   id="g7790"
+                   figma:type="vector"
                    style="mix-blend-mode:normal"
-                   figma:type="vector">
+                   id="g7562-7">
                   <use
-                     height="100%"
-                     width="100%"
-                     y="0"
-                     x="0"
-                     xlink:href="#path10_fill-8"
-                     transform="translate(1643.28,2496.09)"
+                     id="use7564-8"
                      style="mix-blend-mode:normal;fill:#9e9e9e"
-                     id="use7792" />
+                     transform="translate(1643.28,2496.09)"
+                     xlink:href="#path10_fill-8"
+                     x="0"
+                     y="0"
+                     width="100%"
+                     height="100%" />
                 </g>
               </g>
               <g
-                 id="g7794"
+                 figma:type="group"
                  style="mix-blend-mode:normal"
-                 figma:type="group">
+                 id="g7566-9">
                 <g
-                   id="g7796"
+                   figma:type="vector"
                    style="mix-blend-mode:normal"
-                   figma:type="vector">
+                   id="g7568-9">
                   <use
-                     height="100%"
-                     width="100%"
-                     y="0"
-                     x="0"
-                     xlink:href="#path11_fill-8"
-                     transform="translate(1641.87,2458.43)"
+                     id="use7570-5"
                      style="mix-blend-mode:normal;fill:#616262"
-                     id="use7798" />
+                     transform="translate(1641.87,2458.43)"
+                     xlink:href="#path11_fill-8"
+                     x="0"
+                     y="0"
+                     width="100%"
+                     height="100%" />
                 </g>
               </g>
             </g>
@@ -1964,29 +1978,28 @@
        id="v32x2"
        inkscape:label="#g8483">
       <image
-         sodipodi:absref="/Users/tino/Dropbox/dev/jupyter-notebook-viewer/icons/JupyterNotebookIcon.iconset/icon_32x32@2x.png"
-         xlink:href="JupyterNotebookIcon.iconset/icon_32x32@2x.png"
-         width="64"
-         height="64"
-         preserveAspectRatio="none"
-         style="enable-background:new;image-rendering:optimizeSpeed"
-         id="image4749"
-         x="32"
+         sodipodi:absref="/Users/tino/Dropbox/dev/jupyter-notebook-viewer/icons/Jupyter Notebook Document.iconset/icon_32x32@2x.png"
+         xlink:href="Jupyter Notebook Document.iconset/icon_32x32@2x.png"
+         transform="translate(0,483.63782)"
          y="988.36218"
-         transform="translate(0,483.63782)" />
+         x="32"
+         id="image4749"
+         style="image-rendering:optimizeSpeed;enable-background:new"
+         preserveAspectRatio="none"
+         height="64"
+         width="64" />
       <text
          xml:space="preserve"
-         style="enable-background:new;font-style:normal;font-weight:normal;font-size:6.25px;line-height:125%;font-family:'Bitstream Vera Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="54.439354"
-         y="1045.3622"
+         style="font-style:normal;font-weight:normal;font-size:6.25px;line-height:125%;font-family:'Bitstream Vera Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;enable-background:new"
+         x="49.566063"
+         y="1529"
          id="text7800"
-         sodipodi:linespacing="125%"
-         transform="translate(0,483.63782)"><tspan
+         sodipodi:linespacing="125%"><tspan
            sodipodi:role="line"
            id="tspan7802"
-           x="54.439354"
-           y="1045.3622"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium'">IPYNB</tspan></text>
+           x="49.566063"
+           y="1529"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium'">Notebook</tspan></text>
       <g
          figma:type="canvas"
          transform="matrix(0.625,0,0,0.625,-974.67521,-45.182751)"
@@ -2250,16 +2263,16 @@
        id="v32"
        inkscape:label="#g8577">
       <image
-         sodipodi:absref="/Users/tino/Dropbox/dev/jupyter-notebook-viewer/icons/JupyterNotebookIcon.iconset/icon_32x32.png"
-         xlink:href="JupyterNotebookIcon.iconset/icon_32x32.png"
-         width="32"
-         height="32"
-         preserveAspectRatio="none"
-         style="enable-background:new;image-rendering:optimizeSpeed"
-         id="image4738"
-         x="-64"
+         sodipodi:absref="/Users/tino/Dropbox/dev/jupyter-notebook-viewer/icons/Jupyter Notebook Document.iconset/icon_32x32.png"
+         xlink:href="Jupyter Notebook Document.iconset/icon_32x32.png"
+         transform="translate(0,483.63782)"
          y="-3.63782"
-         transform="translate(0,483.63782)" />
+         x="-64"
+         id="image4738"
+         style="image-rendering:optimizeSpeed;enable-background:new"
+         preserveAspectRatio="none"
+         height="32"
+         width="32" />
       <text
          sodipodi:linespacing="125%"
          id="text7692-7"
@@ -2267,255 +2280,266 @@
          x="-47.172447"
          style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:'Bitstream Vera Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter5540);enable-background:new"
          xml:space="preserve"
-         transform="matrix(0.25,0,0,0.25,-40.987211,377.6258)"><tspan
+         transform="matrix(0.25,0,0,0.25,-43.423856,377.6258)"><tspan
            style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium'"
            y="522.60431"
            x="-47.172447"
            id="tspan7694-4"
-           sodipodi:role="line">IPYNB</tspan></text>
+           sodipodi:role="line">Notebook</tspan></text>
       <g
-         style="filter:url(#filter5540);enable-background:new"
-         id="g7716-1"
-         transform="matrix(0.3125,0,0,0.3125,-567.33761,-278.59138)"
-         figma:type="canvas">
+         style="display:inline;filter:url(#filter5540);enable-background:new"
+         figma:type="canvas"
+         transform="matrix(0.312495,0,0,0.312495,-567.3293,-278.57899)"
+         id="g7488-4"
+         clip-path="url(#clipPath5172)">
         <g
-           id="g7718-5"
+           figma:type="group"
            style="mix-blend-mode:normal"
-           figma:type="group">
+           id="g7490-6">
           <g
-             id="g7720-1"
+             figma:type="group"
              style="mix-blend-mode:normal"
-             figma:type="group">
+             id="g7492-3">
             <g
-               id="g7722-7"
+               figma:type="group"
                style="mix-blend-mode:normal"
-               figma:type="group">
+               id="g7494-1">
               <g
-                 id="g7724-7"
+                 figma:type="group"
                  style="mix-blend-mode:normal"
-                 figma:type="group">
+                 id="g7496-8">
                 <g
-                   id="g7726-7"
+                   figma:type="group"
                    style="mix-blend-mode:normal"
-                   figma:type="group">
+                   id="g7498-8">
                   <g
-                     id="g7728-1"
+                     figma:type="vector"
                      style="mix-blend-mode:normal"
-                     figma:type="vector">
+                     id="g7500-3">
                     <use
-                       height="100%"
-                       width="100%"
-                       y="0"
-                       x="0"
-                       xlink:href="#path0_fill-1"
+                       id="use7502-5"
+                       style="mix-blend-mode:normal;fill:#4e4e4e"
                        transform="translate(1640.54,2474.36)"
-                       style="mix-blend-mode:normal;fill:#4e4e4e"
-                       id="use7730-1" />
+                       xlink:href="#path0_fill-1"
+                       x="0"
+                       y="0"
+                       width="100%"
+                       height="100%" />
                   </g>
                 </g>
                 <g
-                   id="g7732-1"
+                   figma:type="group"
                    style="mix-blend-mode:normal"
-                   figma:type="group">
+                   id="g7504-6">
                   <g
-                     id="g7734-9"
+                     figma:type="vector"
                      style="mix-blend-mode:normal"
-                     figma:type="vector">
+                     id="g7506-7">
                     <use
-                       height="100%"
-                       width="100%"
-                       y="0"
-                       x="0"
-                       xlink:href="#path1_fill-8"
+                       id="use7508-8"
+                       style="mix-blend-mode:normal;fill:#4e4e4e"
                        transform="translate(1645.68,2474.37)"
-                       style="mix-blend-mode:normal;fill:#4e4e4e"
-                       id="use7736-8" />
+                       xlink:href="#path1_fill-8"
+                       x="0"
+                       y="0"
+                       width="100%"
+                       height="100%" />
                   </g>
                 </g>
                 <g
-                   id="g7738-6"
+                   figma:type="group"
                    style="mix-blend-mode:normal"
-                   figma:type="group">
+                   id="g7510-6">
                   <g
-                     id="g7740-2"
+                     figma:type="vector"
                      style="mix-blend-mode:normal"
-                     figma:type="vector">
+                     id="g7512-5">
                     <use
-                       height="100%"
-                       width="100%"
-                       y="0"
-                       x="0"
-                       xlink:href="#path2_fill-4"
+                       id="use7514-6"
+                       style="mix-blend-mode:normal;fill:#4e4e4e"
                        transform="translate(1653.39,2474.26)"
-                       style="mix-blend-mode:normal;fill:#4e4e4e"
-                       id="use7742-8" />
+                       xlink:href="#path2_fill-4"
+                       x="0"
+                       y="0"
+                       width="100%"
+                       height="100%" />
                   </g>
                 </g>
                 <g
-                   id="g7744-8"
+                   figma:type="group"
                    style="mix-blend-mode:normal"
-                   figma:type="group">
+                   id="g7516-4">
                   <g
-                     id="g7746-6"
+                     figma:type="vector"
                      style="mix-blend-mode:normal"
-                     figma:type="vector">
+                     id="g7518-5">
                     <use
-                       height="100%"
-                       width="100%"
-                       y="0"
-                       x="0"
-                       xlink:href="#path3_fill-4"
+                       id="use7520-0"
+                       style="mix-blend-mode:normal;fill:#4e4e4e"
                        transform="translate(1660.43,2474.39)"
-                       style="mix-blend-mode:normal;fill:#4e4e4e"
-                       id="use7748-2" />
+                       xlink:href="#path3_fill-4"
+                       x="0"
+                       y="0"
+                       width="100%"
+                       height="100%" />
                   </g>
                 </g>
                 <g
-                   id="g7750-5"
+                   figma:type="group"
                    style="mix-blend-mode:normal"
-                   figma:type="group">
+                   id="g7522-2">
                   <g
-                     id="g7752-5"
+                     figma:type="vector"
                      style="mix-blend-mode:normal"
-                     figma:type="vector">
+                     id="g7524-6">
                     <use
-                       height="100%"
-                       width="100%"
-                       y="0"
-                       x="0"
-                       xlink:href="#path4_fill-5"
+                       id="use7526-3"
+                       style="mix-blend-mode:normal;fill:#4e4e4e"
                        transform="translate(1667.55,2472.54)"
-                       style="mix-blend-mode:normal;fill:#4e4e4e"
-                       id="use7754-7" />
+                       xlink:href="#path4_fill-5"
+                       x="0"
+                       y="0"
+                       width="100%"
+                       height="100%" />
                   </g>
                 </g>
                 <g
-                   id="g7756-6"
+                   figma:type="group"
                    style="mix-blend-mode:normal"
-                   figma:type="group">
+                   id="g7528-9">
                   <g
-                     id="g7758-5"
+                     figma:type="vector"
                      style="mix-blend-mode:normal"
-                     figma:type="vector">
+                     id="g7530-8">
                     <use
-                       height="100%"
-                       width="100%"
-                       y="0"
-                       x="0"
-                       xlink:href="#path5_fill-7"
+                       id="use7532-0"
+                       style="mix-blend-mode:normal;fill:#4e4e4e"
                        transform="translate(1672.47,2474.29)"
-                       style="mix-blend-mode:normal;fill:#4e4e4e"
-                       id="use7760-0" />
+                       xlink:href="#path5_fill-7"
+                       x="0"
+                       y="0"
+                       width="100%"
+                       height="100%" />
                   </g>
                 </g>
                 <g
-                   id="g7762-0"
+                   figma:type="group"
                    style="mix-blend-mode:normal"
-                   figma:type="group">
+                   id="g7534-6">
                   <g
-                     id="g7764-7"
+                     figma:type="vector"
                      style="mix-blend-mode:normal"
-                     figma:type="vector">
+                     id="g7536-8">
                     <use
-                       height="100%"
-                       width="100%"
-                       y="0"
-                       x="0"
-                       xlink:href="#path6_fill-0"
-                       transform="translate(1679.98,2474.24)"
+                       id="use7538-2"
                        style="mix-blend-mode:normal;fill:#4e4e4e"
-                       id="use7766-2" />
+                       transform="translate(1679.98,2474.24)"
+                       xlink:href="#path6_fill-0"
+                       x="0"
+                       y="0"
+                       width="100%"
+                       height="100%" />
                   </g>
                 </g>
               </g>
             </g>
             <g
-               id="g7768-0"
+               figma:type="group"
                style="mix-blend-mode:normal"
-               figma:type="group">
+               id="g7540-2">
               <g
-                 id="g7770-0"
+                 figma:type="group"
                  style="mix-blend-mode:normal"
-                 figma:type="group">
+                 id="g7542-3">
                 <g
-                   id="g7772-7"
+                   figma:type="vector"
                    style="mix-blend-mode:normal"
-                   figma:type="vector" />
+                   id="g7544-7">
+                  <use
+                     id="use7546-2"
+                     style="mix-blend-mode:normal;fill:#767677"
+                     transform="translate(1673.48,2453.69)"
+                     xlink:href="#path7_fill-2"
+                     x="0"
+                     y="0"
+                     width="100%"
+                     height="100%" />
+                </g>
               </g>
               <g
-                 id="g7776-7"
+                 figma:type="group"
                  style="mix-blend-mode:normal"
-                 figma:type="group">
+                 id="g7548-0">
                 <g
-                   id="g7778-1"
+                   figma:type="vector"
                    style="mix-blend-mode:normal"
-                   figma:type="vector">
+                   id="g7550-5">
                   <use
-                     height="100%"
-                     width="100%"
-                     y="0"
-                     x="0"
-                     xlink:href="#path8_fill-2"
+                     id="use7552-2"
+                     style="mix-blend-mode:normal;fill:#f37726"
                      transform="translate(1643.21,2484.27)"
-                     style="mix-blend-mode:normal;fill:#f37726"
-                     id="use7780-0" />
+                     xlink:href="#path8_fill-2"
+                     x="0"
+                     y="0"
+                     width="100%"
+                     height="100%" />
                 </g>
               </g>
               <g
-                 id="g7782-5"
+                 figma:type="group"
                  style="mix-blend-mode:normal"
-                 figma:type="group">
+                 id="g7554-3">
                 <g
-                   id="g7784-6"
+                   figma:type="vector"
                    style="mix-blend-mode:normal"
-                   figma:type="vector">
+                   id="g7556-2">
                   <use
-                     height="100%"
-                     width="100%"
-                     y="0"
-                     x="0"
-                     xlink:href="#path9_fill-6"
+                     id="use7558-3"
+                     style="mix-blend-mode:normal;fill:#f37726"
                      transform="translate(1643.21,2457.88)"
-                     style="mix-blend-mode:normal;fill:#f37726"
-                     id="use7786-1" />
+                     xlink:href="#path9_fill-6"
+                     x="0"
+                     y="0"
+                     width="100%"
+                     height="100%" />
                 </g>
               </g>
               <g
-                 id="g7788-8"
+                 figma:type="group"
                  style="mix-blend-mode:normal"
-                 figma:type="group">
+                 id="g7560-6">
                 <g
-                   id="g7790-0"
+                   figma:type="vector"
                    style="mix-blend-mode:normal"
-                   figma:type="vector">
+                   id="g7562-5">
                   <use
-                     height="100%"
-                     width="100%"
-                     y="0"
-                     x="0"
-                     xlink:href="#path10_fill-8"
-                     transform="translate(1643.28,2496.09)"
+                     id="use7564-3"
                      style="mix-blend-mode:normal;fill:#9e9e9e"
-                     id="use7792-9" />
+                     transform="translate(1643.28,2496.09)"
+                     xlink:href="#path10_fill-8"
+                     x="0"
+                     y="0"
+                     width="100%"
+                     height="100%" />
                 </g>
               </g>
               <g
-                 id="g7794-9"
+                 figma:type="group"
                  style="mix-blend-mode:normal"
-                 figma:type="group">
+                 id="g7566-3">
                 <g
-                   id="g7796-5"
+                   figma:type="vector"
                    style="mix-blend-mode:normal"
-                   figma:type="vector">
+                   id="g7568-2">
                   <use
-                     height="100%"
-                     width="100%"
-                     y="0"
-                     x="0"
-                     xlink:href="#path11_fill-8"
-                     transform="translate(1641.87,2458.43)"
+                     id="use7570-3"
                      style="mix-blend-mode:normal;fill:#616262"
-                     id="use7798-2" />
+                     transform="translate(1641.87,2458.43)"
+                     xlink:href="#path11_fill-8"
+                     x="0"
+                     y="0"
+                     width="100%"
+                     height="100%" />
                 </g>
               </g>
             </g>
@@ -2527,40 +2551,27 @@
        id="v16x2"
        inkscape:label="#g8531">
       <image
-         sodipodi:absref="/Users/tino/Dropbox/dev/jupyter-notebook-viewer/icons/JupyterNotebookIcon.iconset/icon_16x16@2x.png"
-         xlink:href="JupyterNotebookIcon.iconset/icon_16x16@2x.png"
-         width="32"
-         height="32"
-         preserveAspectRatio="none"
-         style="enable-background:new;image-rendering:optimizeSpeed"
-         id="image4727"
-         x="0"
+         sodipodi:absref="/Users/tino/Dropbox/dev/jupyter-notebook-viewer/icons/Jupyter Notebook Document.iconset/icon_16x16@2x.png"
+         xlink:href="Jupyter Notebook Document.iconset/icon_16x16@2x.png"
+         transform="translate(0,483.63782)"
          y="1020.3622"
-         transform="translate(0,483.63782)" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text7692-7-3"
-         y="522.60431"
-         x="-47.172447"
-         style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:'Bitstream Vera Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter5540-7);enable-background:new"
-         xml:space="preserve"
-         transform="matrix(0.25,0,0,0.25,23.012789,1401.6258)"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium'"
-           y="522.60431"
-           x="-47.172447"
-           id="tspan7694-4-7"
-           sodipodi:role="line">IPYNB</tspan></text>
+         x="0"
+         id="image4727"
+         style="image-rendering:optimizeSpeed;enable-background:new"
+         preserveAspectRatio="none"
+         height="32"
+         width="32" />
       <g
-         style="filter:url(#filter5540-7);enable-background:new"
-         id="g7716-1-8"
-         transform="matrix(0.3125,0,0,0.3125,-503.33761,744.75394)"
+         style="filter:url(#filter5540-5);enable-background:new"
+         id="g7716-1-5"
+         transform="matrix(0.44273887,0,0,0.44273887,-719.9992,424.57712)"
          figma:type="canvas">
         <g
-           id="g7718-5-8"
+           id="g7718-5-1"
            style="mix-blend-mode:normal"
            figma:type="group">
           <g
-             id="g7720-1-2"
+             id="g7720-1-0"
              style="mix-blend-mode:normal"
              figma:type="group">
             <g
@@ -2568,15 +2579,15 @@
                style="mix-blend-mode:normal"
                figma:type="group">
               <g
-                 id="g7724-7-4"
+                 id="g7724-7-1"
                  style="mix-blend-mode:normal"
                  figma:type="group">
                 <g
-                   id="g7726-7-9"
+                   id="g7726-7-0"
                    style="mix-blend-mode:normal"
                    figma:type="group">
                   <g
-                     id="g7728-1-1"
+                     id="g7728-1-9"
                      style="mix-blend-mode:normal"
                      figma:type="vector">
                     <use
@@ -2587,15 +2598,15 @@
                        xlink:href="#path0_fill-1"
                        transform="translate(1640.54,2474.36)"
                        style="mix-blend-mode:normal;fill:#4e4e4e"
-                       id="use7730-1-0" />
+                       id="use7730-1-5" />
                   </g>
                 </g>
                 <g
-                   id="g7732-1-0"
+                   id="g7732-1-4"
                    style="mix-blend-mode:normal"
                    figma:type="group">
                   <g
-                     id="g7734-9-9"
+                     id="g7734-9-0"
                      style="mix-blend-mode:normal"
                      figma:type="vector">
                     <use
@@ -2606,15 +2617,15 @@
                        xlink:href="#path1_fill-8"
                        transform="translate(1645.68,2474.37)"
                        style="mix-blend-mode:normal;fill:#4e4e4e"
-                       id="use7736-8-7" />
+                       id="use7736-8-9" />
                   </g>
                 </g>
                 <g
-                   id="g7738-6-6"
+                   id="g7738-6-4"
                    style="mix-blend-mode:normal"
                    figma:type="group">
                   <g
-                     id="g7740-2-6"
+                     id="g7740-2-5"
                      style="mix-blend-mode:normal"
                      figma:type="vector">
                     <use
@@ -2625,15 +2636,15 @@
                        xlink:href="#path2_fill-4"
                        transform="translate(1653.39,2474.26)"
                        style="mix-blend-mode:normal;fill:#4e4e4e"
-                       id="use7742-8-1" />
+                       id="use7742-8-2" />
                   </g>
                 </g>
                 <g
-                   id="g7744-8-9"
+                   id="g7744-8-3"
                    style="mix-blend-mode:normal"
                    figma:type="group">
                   <g
-                     id="g7746-6-1"
+                     id="g7746-6-6"
                      style="mix-blend-mode:normal"
                      figma:type="vector">
                     <use
@@ -2644,286 +2655,7 @@
                        xlink:href="#path3_fill-4"
                        transform="translate(1660.43,2474.39)"
                        style="mix-blend-mode:normal;fill:#4e4e4e"
-                       id="use7748-2-6" />
-                  </g>
-                </g>
-                <g
-                   id="g7750-5-8"
-                   style="mix-blend-mode:normal"
-                   figma:type="group">
-                  <g
-                     id="g7752-5-2"
-                     style="mix-blend-mode:normal"
-                     figma:type="vector">
-                    <use
-                       height="100%"
-                       width="100%"
-                       y="0"
-                       x="0"
-                       xlink:href="#path4_fill-5"
-                       transform="translate(1667.55,2472.54)"
-                       style="mix-blend-mode:normal;fill:#4e4e4e"
-                       id="use7754-7-8" />
-                  </g>
-                </g>
-                <g
-                   id="g7756-6-7"
-                   style="mix-blend-mode:normal"
-                   figma:type="group">
-                  <g
-                     id="g7758-5-5"
-                     style="mix-blend-mode:normal"
-                     figma:type="vector">
-                    <use
-                       height="100%"
-                       width="100%"
-                       y="0"
-                       x="0"
-                       xlink:href="#path5_fill-7"
-                       transform="translate(1672.47,2474.29)"
-                       style="mix-blend-mode:normal;fill:#4e4e4e"
-                       id="use7760-0-7" />
-                  </g>
-                </g>
-                <g
-                   id="g7762-0-1"
-                   style="mix-blend-mode:normal"
-                   figma:type="group">
-                  <g
-                     id="g7764-7-6"
-                     style="mix-blend-mode:normal"
-                     figma:type="vector">
-                    <use
-                       height="100%"
-                       width="100%"
-                       y="0"
-                       x="0"
-                       xlink:href="#path6_fill-0"
-                       transform="translate(1679.98,2474.24)"
-                       style="mix-blend-mode:normal;fill:#4e4e4e"
-                       id="use7766-2-5" />
-                  </g>
-                </g>
-              </g>
-            </g>
-            <g
-               id="g7768-0-8"
-               style="mix-blend-mode:normal"
-               figma:type="group">
-              <g
-                 id="g7770-0-3"
-                 style="mix-blend-mode:normal"
-                 figma:type="group">
-                <g
-                   id="g7772-7-1"
-                   style="mix-blend-mode:normal"
-                   figma:type="vector" />
-              </g>
-              <g
-                 id="g7776-7-5"
-                 style="mix-blend-mode:normal"
-                 figma:type="group">
-                <g
-                   id="g7778-1-8"
-                   style="mix-blend-mode:normal"
-                   figma:type="vector">
-                  <use
-                     height="100%"
-                     width="100%"
-                     y="0"
-                     x="0"
-                     xlink:href="#path8_fill-2"
-                     transform="translate(1643.21,2484.27)"
-                     style="mix-blend-mode:normal;fill:#f37726"
-                     id="use7780-0-6" />
-                </g>
-              </g>
-              <g
-                 id="g7782-5-5"
-                 style="mix-blend-mode:normal"
-                 figma:type="group">
-                <g
-                   id="g7784-6-6"
-                   style="mix-blend-mode:normal"
-                   figma:type="vector">
-                  <use
-                     height="100%"
-                     width="100%"
-                     y="0"
-                     x="0"
-                     xlink:href="#path9_fill-6"
-                     transform="translate(1643.21,2457.88)"
-                     style="mix-blend-mode:normal;fill:#f37726"
-                     id="use7786-1-3" />
-                </g>
-              </g>
-              <g
-                 id="g7788-8-7"
-                 style="mix-blend-mode:normal"
-                 figma:type="group">
-                <g
-                   id="g7790-0-1"
-                   style="mix-blend-mode:normal"
-                   figma:type="vector">
-                  <use
-                     height="100%"
-                     width="100%"
-                     y="0"
-                     x="0"
-                     xlink:href="#path10_fill-8"
-                     transform="translate(1643.28,2496.09)"
-                     style="mix-blend-mode:normal;fill:#9e9e9e"
-                     id="use7792-9-8" />
-                </g>
-              </g>
-              <g
-                 id="g7794-9-9"
-                 style="mix-blend-mode:normal"
-                 figma:type="group">
-                <g
-                   id="g7796-5-9"
-                   style="mix-blend-mode:normal"
-                   figma:type="vector">
-                  <use
-                     height="100%"
-                     width="100%"
-                     y="0"
-                     x="0"
-                     xlink:href="#path11_fill-8"
-                     transform="translate(1641.87,2458.43)"
-                     style="mix-blend-mode:normal;fill:#616262"
-                     id="use7798-2-2" />
-                </g>
-              </g>
-            </g>
-          </g>
-        </g>
-      </g>
-    </g>
-    <g
-       id="v16"
-       inkscape:label="#g8623">
-      <image
-         sodipodi:absref="/Users/tino/Dropbox/dev/jupyter-notebook-viewer/icons/JupyterNotebookIcon.iconset/icon_16x16.png"
-         xlink:href="JupyterNotebookIcon.iconset/icon_16x16.png"
-         width="16"
-         height="16"
-         preserveAspectRatio="none"
-         style="enable-background:new;image-rendering:optimizeSpeed"
-         id="image4716"
-         x="-80"
-         y="12.36218"
-         transform="translate(0,483.63782)" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text7692-7-9"
-         y="522.60431"
-         x="-47.172447"
-         style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:'Bitstream Vera Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter5540-2);enable-background:new"
-         xml:space="preserve"
-         transform="matrix(0.125,0,0,0.125,-68.493605,444.5629)"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Medium'"
-           y="522.60431"
-           x="-47.172447"
-           id="tspan7694-4-79"
-           sodipodi:role="line">IPYNB</tspan></text>
-      <g
-         style="filter:url(#filter5540-2);enable-background:new"
-         id="g7716-1-3"
-         transform="matrix(0.15625,0,0,0.15625,-331.6688,116.37697)"
-         figma:type="canvas">
-        <g
-           id="g7718-5-3"
-           style="mix-blend-mode:normal"
-           figma:type="group"
-           transform="translate(-0.98371787,4.6658585)"
-           clip-path="url(#clipPath5185)">
-          <g
-             id="g7720-1-6"
-             style="mix-blend-mode:normal"
-             figma:type="group">
-            <g
-               id="g7722-7-7"
-               style="mix-blend-mode:normal"
-               figma:type="group">
-              <g
-                 id="g7724-7-3"
-                 style="mix-blend-mode:normal"
-                 figma:type="group">
-                <g
-                   id="g7726-7-7"
-                   style="mix-blend-mode:normal"
-                   figma:type="group">
-                  <g
-                     id="g7728-1-0"
-                     style="mix-blend-mode:normal"
-                     figma:type="vector">
-                    <use
-                       height="100%"
-                       width="100%"
-                       y="0"
-                       x="0"
-                       xlink:href="#path0_fill-1"
-                       transform="translate(1640.54,2474.36)"
-                       style="mix-blend-mode:normal;fill:#4e4e4e"
-                       id="use7730-1-4" />
-                  </g>
-                </g>
-                <g
-                   id="g7732-1-5"
-                   style="mix-blend-mode:normal"
-                   figma:type="group">
-                  <g
-                     id="g7734-9-1"
-                     style="mix-blend-mode:normal"
-                     figma:type="vector">
-                    <use
-                       height="100%"
-                       width="100%"
-                       y="0"
-                       x="0"
-                       xlink:href="#path1_fill-8"
-                       transform="translate(1645.68,2474.37)"
-                       style="mix-blend-mode:normal;fill:#4e4e4e"
-                       id="use7736-8-2" />
-                  </g>
-                </g>
-                <g
-                   id="g7738-6-2"
-                   style="mix-blend-mode:normal"
-                   figma:type="group">
-                  <g
-                     id="g7740-2-4"
-                     style="mix-blend-mode:normal"
-                     figma:type="vector">
-                    <use
-                       height="100%"
-                       width="100%"
-                       y="0"
-                       x="0"
-                       xlink:href="#path2_fill-4"
-                       transform="translate(1653.39,2474.26)"
-                       style="mix-blend-mode:normal;fill:#4e4e4e"
-                       id="use7742-8-8" />
-                  </g>
-                </g>
-                <g
-                   id="g7744-8-8"
-                   style="mix-blend-mode:normal"
-                   figma:type="group">
-                  <g
-                     id="g7746-6-9"
-                     style="mix-blend-mode:normal"
-                     figma:type="vector">
-                    <use
-                       height="100%"
-                       width="100%"
-                       y="0"
-                       x="0"
-                       xlink:href="#path3_fill-4"
-                       transform="translate(1660.43,2474.39)"
-                       style="mix-blend-mode:normal;fill:#4e4e4e"
-                       id="use7748-2-0" />
+                       id="use7748-2-8" />
                   </g>
                 </g>
                 <g
@@ -2931,7 +2663,7 @@
                    style="mix-blend-mode:normal"
                    figma:type="group">
                   <g
-                     id="g7752-5-6"
+                     id="g7752-5-4"
                      style="mix-blend-mode:normal"
                      figma:type="vector">
                     <use
@@ -2946,11 +2678,11 @@
                   </g>
                 </g>
                 <g
-                   id="g7756-6-0"
+                   id="g7756-6-8"
                    style="mix-blend-mode:normal"
                    figma:type="group">
                   <g
-                     id="g7758-5-7"
+                     id="g7758-5-5"
                      style="mix-blend-mode:normal"
                      figma:type="vector">
                     <use
@@ -2969,7 +2701,7 @@
                    style="mix-blend-mode:normal"
                    figma:type="group">
                   <g
-                     id="g7764-7-9"
+                     id="g7764-7-8"
                      style="mix-blend-mode:normal"
                      figma:type="vector">
                     <use
@@ -2980,30 +2712,30 @@
                        xlink:href="#path6_fill-0"
                        transform="translate(1679.98,2474.24)"
                        style="mix-blend-mode:normal;fill:#4e4e4e"
-                       id="use7766-2-7" />
+                       id="use7766-2-2" />
                   </g>
                 </g>
               </g>
             </g>
             <g
-               id="g7768-0-1"
+               id="g7768-0-5"
                style="mix-blend-mode:normal"
                figma:type="group">
               <g
-                 id="g7770-0-7"
+                 id="g7770-0-1"
                  style="mix-blend-mode:normal"
                  figma:type="group">
                 <g
-                   id="g7772-7-18"
+                   id="g7772-7-0"
                    style="mix-blend-mode:normal"
                    figma:type="vector" />
               </g>
               <g
-                 id="g7776-7-0"
+                 id="g7776-7-2"
                  style="mix-blend-mode:normal"
                  figma:type="group">
                 <g
-                   id="g7778-1-5"
+                   id="g7778-1-1"
                    style="mix-blend-mode:normal"
                    figma:type="vector">
                   <use
@@ -3014,15 +2746,15 @@
                      xlink:href="#path8_fill-2"
                      transform="translate(1643.21,2484.27)"
                      style="mix-blend-mode:normal;fill:#f37726"
-                     id="use7780-0-0" />
+                     id="use7780-0-7" />
                 </g>
               </g>
               <g
-                 id="g7782-5-4"
+                 id="g7782-5-3"
                  style="mix-blend-mode:normal"
                  figma:type="group">
                 <g
-                   id="g7784-6-8"
+                   id="g7784-6-1"
                    style="mix-blend-mode:normal"
                    figma:type="vector">
                   <use
@@ -3033,15 +2765,15 @@
                      xlink:href="#path9_fill-6"
                      transform="translate(1643.21,2457.88)"
                      style="mix-blend-mode:normal;fill:#f37726"
-                     id="use7786-1-9" />
+                     id="use7786-1-1" />
                 </g>
               </g>
               <g
-                 id="g7788-8-3"
+                 id="g7788-8-9"
                  style="mix-blend-mode:normal"
                  figma:type="group">
                 <g
-                   id="g7790-0-7"
+                   id="g7790-0-4"
                    style="mix-blend-mode:normal"
                    figma:type="vector">
                   <use
@@ -3052,15 +2784,15 @@
                      xlink:href="#path10_fill-8"
                      transform="translate(1643.28,2496.09)"
                      style="mix-blend-mode:normal;fill:#9e9e9e"
-                     id="use7792-9-87" />
+                     id="use7792-9-6" />
                 </g>
               </g>
               <g
-                 id="g7794-9-0"
+                 id="g7794-9-1"
                  style="mix-blend-mode:normal"
                  figma:type="group">
                 <g
-                   id="g7796-5-1"
+                   id="g7796-5-4"
                    style="mix-blend-mode:normal"
                    figma:type="vector">
                   <use
@@ -3071,7 +2803,272 @@
                      xlink:href="#path11_fill-8"
                      transform="translate(1641.87,2458.43)"
                      style="mix-blend-mode:normal;fill:#616262"
-                     id="use7798-2-0" />
+                     id="use7798-2-3" />
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       id="v16"
+       inkscape:label="#g8623">
+      <image
+         sodipodi:absref="/Users/tino/Dropbox/dev/jupyter-notebook-viewer/icons/Jupyter Notebook Document.iconset/icon_16x16.png"
+         xlink:href="Jupyter Notebook Document.iconset/icon_16x16.png"
+         transform="translate(0,483.63782)"
+         y="12.36218"
+         x="-80"
+         id="image4716"
+         style="image-rendering:optimizeSpeed;enable-background:new"
+         preserveAspectRatio="none"
+         height="16"
+         width="16" />
+      <g
+         style="filter:url(#filter5540-4);enable-background:new"
+         id="g7716-1-4"
+         transform="matrix(0.19813227,0,0,0.19813227,-401.41077,14.020659)"
+         figma:type="canvas"
+         clip-path="url(#clipPath5028)">
+        <g
+           id="g7718-5-4"
+           style="mix-blend-mode:normal"
+           figma:type="group">
+          <g
+             id="g7720-1-8"
+             style="mix-blend-mode:normal"
+             figma:type="group">
+            <g
+               id="g7722-7-7"
+               style="mix-blend-mode:normal"
+               figma:type="group">
+              <g
+                 id="g7724-7-6"
+                 style="mix-blend-mode:normal"
+                 figma:type="group">
+                <g
+                   id="g7726-7-3"
+                   style="mix-blend-mode:normal"
+                   figma:type="group">
+                  <g
+                     id="g7728-1-8"
+                     style="mix-blend-mode:normal"
+                     figma:type="vector">
+                    <use
+                       height="100%"
+                       width="100%"
+                       y="0"
+                       x="0"
+                       xlink:href="#path0_fill-1"
+                       transform="translate(1640.54,2474.36)"
+                       style="mix-blend-mode:normal;fill:#4e4e4e"
+                       id="use7730-1-1" />
+                  </g>
+                </g>
+                <g
+                   id="g7732-1-1"
+                   style="mix-blend-mode:normal"
+                   figma:type="group">
+                  <g
+                     id="g7734-9-2"
+                     style="mix-blend-mode:normal"
+                     figma:type="vector">
+                    <use
+                       height="100%"
+                       width="100%"
+                       y="0"
+                       x="0"
+                       xlink:href="#path1_fill-8"
+                       transform="translate(1645.68,2474.37)"
+                       style="mix-blend-mode:normal;fill:#4e4e4e"
+                       id="use7736-8-2" />
+                  </g>
+                </g>
+                <g
+                   id="g7738-6-0"
+                   style="mix-blend-mode:normal"
+                   figma:type="group">
+                  <g
+                     id="g7740-2-3"
+                     style="mix-blend-mode:normal"
+                     figma:type="vector">
+                    <use
+                       height="100%"
+                       width="100%"
+                       y="0"
+                       x="0"
+                       xlink:href="#path2_fill-4"
+                       transform="translate(1653.39,2474.26)"
+                       style="mix-blend-mode:normal;fill:#4e4e4e"
+                       id="use7742-8-8" />
+                  </g>
+                </g>
+                <g
+                   id="g7744-8-7"
+                   style="mix-blend-mode:normal"
+                   figma:type="group">
+                  <g
+                     id="g7746-6-5"
+                     style="mix-blend-mode:normal"
+                     figma:type="vector">
+                    <use
+                       height="100%"
+                       width="100%"
+                       y="0"
+                       x="0"
+                       xlink:href="#path3_fill-4"
+                       transform="translate(1660.43,2474.39)"
+                       style="mix-blend-mode:normal;fill:#4e4e4e"
+                       id="use7748-2-5" />
+                  </g>
+                </g>
+                <g
+                   id="g7750-5-2"
+                   style="mix-blend-mode:normal"
+                   figma:type="group">
+                  <g
+                     id="g7752-5-9"
+                     style="mix-blend-mode:normal"
+                     figma:type="vector">
+                    <use
+                       height="100%"
+                       width="100%"
+                       y="0"
+                       x="0"
+                       xlink:href="#path4_fill-5"
+                       transform="translate(1667.55,2472.54)"
+                       style="mix-blend-mode:normal;fill:#4e4e4e"
+                       id="use7754-7-4" />
+                  </g>
+                </g>
+                <g
+                   id="g7756-6-7"
+                   style="mix-blend-mode:normal"
+                   figma:type="group">
+                  <g
+                     id="g7758-5-3"
+                     style="mix-blend-mode:normal"
+                     figma:type="vector">
+                    <use
+                       height="100%"
+                       width="100%"
+                       y="0"
+                       x="0"
+                       xlink:href="#path5_fill-7"
+                       transform="translate(1672.47,2474.29)"
+                       style="mix-blend-mode:normal;fill:#4e4e4e"
+                       id="use7760-0-7" />
+                  </g>
+                </g>
+                <g
+                   id="g7762-0-4"
+                   style="mix-blend-mode:normal"
+                   figma:type="group">
+                  <g
+                     id="g7764-7-0"
+                     style="mix-blend-mode:normal"
+                     figma:type="vector">
+                    <use
+                       height="100%"
+                       width="100%"
+                       y="0"
+                       x="0"
+                       xlink:href="#path6_fill-0"
+                       transform="translate(1679.98,2474.24)"
+                       style="mix-blend-mode:normal;fill:#4e4e4e"
+                       id="use7766-2-0" />
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g
+               id="g7768-0-6"
+               style="mix-blend-mode:normal"
+               figma:type="group">
+              <g
+                 id="g7770-0-17"
+                 style="mix-blend-mode:normal"
+                 figma:type="group">
+                <g
+                   id="g7772-7-3"
+                   style="mix-blend-mode:normal"
+                   figma:type="vector" />
+              </g>
+              <g
+                 id="g7776-7-8"
+                 style="mix-blend-mode:normal"
+                 figma:type="group">
+                <g
+                   id="g7778-1-3"
+                   style="mix-blend-mode:normal"
+                   figma:type="vector">
+                  <use
+                     height="100%"
+                     width="100%"
+                     y="0"
+                     x="0"
+                     xlink:href="#path8_fill-2"
+                     transform="translate(1643.21,2484.27)"
+                     style="mix-blend-mode:normal;fill:#f37726"
+                     id="use7780-0-9" />
+                </g>
+              </g>
+              <g
+                 id="g7782-5-9"
+                 style="mix-blend-mode:normal"
+                 figma:type="group">
+                <g
+                   id="g7784-6-6"
+                   style="mix-blend-mode:normal"
+                   figma:type="vector">
+                  <use
+                     height="100%"
+                     width="100%"
+                     y="0"
+                     x="0"
+                     xlink:href="#path9_fill-6"
+                     transform="translate(1643.21,2457.88)"
+                     style="mix-blend-mode:normal;fill:#f37726"
+                     id="use7786-1-2" />
+                </g>
+              </g>
+              <g
+                 id="g7788-8-7"
+                 style="mix-blend-mode:normal"
+                 figma:type="group">
+                <g
+                   id="g7790-0-6"
+                   style="mix-blend-mode:normal"
+                   figma:type="vector">
+                  <use
+                     height="100%"
+                     width="100%"
+                     y="0"
+                     x="0"
+                     xlink:href="#path10_fill-8"
+                     transform="translate(1643.28,2496.09)"
+                     style="mix-blend-mode:normal;fill:#9e9e9e"
+                     id="use7792-9-3" />
+                </g>
+              </g>
+              <g
+                 id="g7794-9-2"
+                 style="mix-blend-mode:normal"
+                 figma:type="group">
+                <g
+                   id="g7796-5-0"
+                   style="mix-blend-mode:normal"
+                   figma:type="vector">
+                  <use
+                     height="100%"
+                     width="100%"
+                     y="0"
+                     x="0"
+                     xlink:href="#path11_fill-8"
+                     transform="translate(1641.87,2458.43)"
+                     style="mix-blend-mode:normal;fill:#616262"
+                     id="use7798-2-9" />
                 </g>
               </g>
             </g>
