@@ -12,10 +12,41 @@
 		21038F4E1E3FEFA900BDC3F2 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21038F4D1E3FEFA900BDC3F2 /* Document.swift */; };
 		21038F531E3FEFA900BDC3F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21038F511E3FEFA900BDC3F2 /* Main.storyboard */; };
 		21038F611E3FF27F00BDC3F2 /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = 21038F601E3FF27F00BDC3F2 /* template.html */; };
-		21038F631E3FF2D200BDC3F2 /* nbv.js in Resources */ = {isa = PBXBuildFile; fileRef = 21038F621E3FF2D200BDC3F2 /* nbv.js */; };
+		2146E0441E4D27A8006732F9 /* ipynb-quicklook.qlgenerator in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2146E0411E4D2749006732F9 /* ipynb-quicklook.qlgenerator */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		217E82501E4D259D0021D6CC /* nbv.js in Resources */ = {isa = PBXBuildFile; fileRef = 217E824F1E4D259D0021D6CC /* nbv.js */; };
 		21946AFD1E40B6FF0054C77E /* Jupyter Notebook Document.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 21946AFC1E40B6FF0054C77E /* Jupyter Notebook Document.iconset */; };
 		21946AFF1E40B8060054C77E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21946AFE1E40B8060054C77E /* Images.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2146E0401E4D2749006732F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2146E03C1E4D2749006732F9 /* ipynb-quicklook.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 219F67431E37F49800CA4392;
+			remoteInfo = "ipynb-quicklook";
+		};
+		2146E0421E4D2792006732F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2146E03C1E4D2749006732F9 /* ipynb-quicklook.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 219F67421E37F49800CA4392;
+			remoteInfo = "ipynb-quicklook";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		211BA7BE1E487345007C2FF4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/QuickLook;
+			dstSubfolderSpec = 1;
+			files = (
+				2146E0441E4D27A8006732F9 /* ipynb-quicklook.qlgenerator in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		21038F461E3FEFA900BDC3F2 /* Jupyter Notebook Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jupyter Notebook Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,7 +56,8 @@
 		21038F521E3FEFA900BDC3F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21038F541E3FEFA900BDC3F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21038F601E3FF27F00BDC3F2 /* template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = template.html; path = "Jupyter Notebook Viewer/template.html"; sourceTree = "<group>"; };
-		21038F621E3FF2D200BDC3F2 /* nbv.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = nbv.js; path = nbviewer.js/lib/nbv.js; sourceTree = SOURCE_ROOT; };
+		2146E03C1E4D2749006732F9 /* ipynb-quicklook.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "ipynb-quicklook.xcodeproj"; path = "quicklook/ipynb-quicklook.xcodeproj"; sourceTree = "<group>"; };
+		217E824F1E4D259D0021D6CC /* nbv.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = nbv.js; path = quicklook/nbviewer.js/lib/nbv.js; sourceTree = "<group>"; };
 		21946AFC1E40B6FF0054C77E /* Jupyter Notebook Document.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = "Jupyter Notebook Document.iconset"; path = "Icons/Jupyter Notebook Document.iconset"; sourceTree = "<group>"; };
 		21946AFE1E40B8060054C77E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,6 +76,7 @@
 		21038F3D1E3FEFA900BDC3F2 = {
 			isa = PBXGroup;
 			children = (
+				2146E03C1E4D2749006732F9 /* ipynb-quicklook.xcodeproj */,
 				21B3ED711E401F60000003D0 /* Resources */,
 				21038F481E3FEFA900BDC3F2 /* Jupyter Notebook Viewer */,
 				21038F471E3FEFA900BDC3F2 /* Products */,
@@ -71,11 +104,19 @@
 			path = "Jupyter Notebook Viewer";
 			sourceTree = "<group>";
 		};
+		2146E03D1E4D2749006732F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2146E0411E4D2749006732F9 /* ipynb-quicklook.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		21B3ED711E401F60000003D0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				21038F601E3FF27F00BDC3F2 /* template.html */,
-				21038F621E3FF2D200BDC3F2 /* nbv.js */,
+				217E824F1E4D259D0021D6CC /* nbv.js */,
 				21946AFC1E40B6FF0054C77E /* Jupyter Notebook Document.iconset */,
 			);
 			name = Resources;
@@ -91,10 +132,12 @@
 				21038F421E3FEFA900BDC3F2 /* Sources */,
 				21038F431E3FEFA900BDC3F2 /* Frameworks */,
 				21038F441E3FEFA900BDC3F2 /* Resources */,
+				211BA7BE1E487345007C2FF4 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2146E0431E4D2792006732F9 /* PBXTargetDependency */,
 			);
 			name = "Jupyter Notebook Viewer";
 			productName = "Jupyter Notebook Viewer";
@@ -128,12 +171,28 @@
 			mainGroup = 21038F3D1E3FEFA900BDC3F2;
 			productRefGroup = 21038F471E3FEFA900BDC3F2 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2146E03D1E4D2749006732F9 /* Products */;
+					ProjectRef = 2146E03C1E4D2749006732F9 /* ipynb-quicklook.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				21038F451E3FEFA900BDC3F2 /* Jupyter Notebook Viewer */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2146E0411E4D2749006732F9 /* ipynb-quicklook.qlgenerator */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ipynb-quicklook.qlgenerator";
+			remoteRef = 2146E0401E4D2749006732F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		21038F441E3FEFA900BDC3F2 /* Resources */ = {
@@ -142,9 +201,9 @@
 			files = (
 				21946AFD1E40B6FF0054C77E /* Jupyter Notebook Document.iconset in Resources */,
 				21946AFF1E40B8060054C77E /* Images.xcassets in Resources */,
+				217E82501E4D259D0021D6CC /* nbv.js in Resources */,
 				21038F611E3FF27F00BDC3F2 /* template.html in Resources */,
 				21038F531E3FEFA900BDC3F2 /* Main.storyboard in Resources */,
-				21038F631E3FF2D200BDC3F2 /* nbv.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +221,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2146E0431E4D2792006732F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ipynb-quicklook";
+			targetProxy = 2146E0421E4D2792006732F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		21038F511E3FEFA900BDC3F2 /* Main.storyboard */ = {
@@ -272,7 +339,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Jupyter Notebook Viewer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tinowagner.Jupyter-Notebook-Viewer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tinowagner.nbviewer-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -285,7 +352,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Jupyter Notebook Viewer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tinowagner.Jupyter-Notebook-Viewer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tinowagner.nbviewer-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
