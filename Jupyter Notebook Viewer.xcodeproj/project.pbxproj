@@ -13,6 +13,7 @@
 		21038F531E3FEFA900BDC3F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21038F511E3FEFA900BDC3F2 /* Main.storyboard */; };
 		21038F611E3FF27F00BDC3F2 /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = 21038F601E3FF27F00BDC3F2 /* template.html */; };
 		2146E0441E4D27A8006732F9 /* ipynb-quicklook.qlgenerator in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2146E0411E4D2749006732F9 /* ipynb-quicklook.qlgenerator */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2146E0461E4D2A28006732F9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2146E0451E4D2A28006732F9 /* Credits.rtf */; };
 		217E82501E4D259D0021D6CC /* nbv.js in Resources */ = {isa = PBXBuildFile; fileRef = 217E824F1E4D259D0021D6CC /* nbv.js */; };
 		21946AFD1E40B6FF0054C77E /* Jupyter Notebook Document.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 21946AFC1E40B6FF0054C77E /* Jupyter Notebook Document.iconset */; };
 		21946AFF1E40B8060054C77E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21946AFE1E40B8060054C77E /* Images.xcassets */; };
@@ -57,6 +58,7 @@
 		21038F541E3FEFA900BDC3F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21038F601E3FF27F00BDC3F2 /* template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = template.html; path = "Jupyter Notebook Viewer/template.html"; sourceTree = "<group>"; };
 		2146E03C1E4D2749006732F9 /* ipynb-quicklook.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "ipynb-quicklook.xcodeproj"; path = "quicklook/ipynb-quicklook.xcodeproj"; sourceTree = "<group>"; };
+		2146E0451E4D2A28006732F9 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = Credits.rtf; path = "Jupyter Notebook Viewer/Credits.rtf"; sourceTree = "<group>"; };
 		217E824F1E4D259D0021D6CC /* nbv.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = nbv.js; path = quicklook/nbviewer.js/lib/nbv.js; sourceTree = "<group>"; };
 		21946AFC1E40B6FF0054C77E /* Jupyter Notebook Document.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = "Jupyter Notebook Document.iconset"; path = "Icons/Jupyter Notebook Document.iconset"; sourceTree = "<group>"; };
 		21946AFE1E40B8060054C77E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			children = (
 				21038F601E3FF27F00BDC3F2 /* template.html */,
 				217E824F1E4D259D0021D6CC /* nbv.js */,
+				2146E0451E4D2A28006732F9 /* Credits.rtf */,
 				21946AFC1E40B6FF0054C77E /* Jupyter Notebook Document.iconset */,
 			);
 			name = Resources;
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21946AFD1E40B6FF0054C77E /* Jupyter Notebook Document.iconset in Resources */,
+				2146E0461E4D2A28006732F9 /* Credits.rtf in Resources */,
 				21946AFF1E40B8060054C77E /* Images.xcassets in Resources */,
 				217E82501E4D259D0021D6CC /* nbv.js in Resources */,
 				21038F611E3FF27F00BDC3F2 /* template.html in Resources */,
