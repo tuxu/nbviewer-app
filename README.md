@@ -1,6 +1,6 @@
 # Jupyter Notebook Viewer
 
-![Icon](Jupyter Notebook Viewer/Images.xcassets/AppIcon.appiconset/icon_256x256.png)
+![Icon](Jupyter%20Notebook%20Viewer/Images.xcassets/AppIcon.appiconset/icon_256x256.png)
 
 A native macOS application to view
 [Jupyter](https://jupyter.org/)/[IPython](https://ipython.org/) notebooks.
