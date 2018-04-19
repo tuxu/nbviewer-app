@@ -16,6 +16,12 @@ A native macOS application to view
 - Download `nbviewer-app.zip`
   ([Releases](https://github.com/tuxu/nbviewer-app/releases))
 - Unzip and move `Jupyter Notebook Viewer.app` to `/Applications` and enjoy 👍
+- Alternatively: install via [Homebrew Cask](https://caskroom.github.io/):
+
+  ```
+  $ brew cask install jupyter-notebook-viewer
+  ```
+
 - Quick Look should work out of the box. If it doesn't, check
   `qlmanage -m plugins | grep ipynb` to see whether the plugin appears there.
 
