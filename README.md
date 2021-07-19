@@ -19,7 +19,7 @@ A native macOS application to view
 - Alternatively: install via [Homebrew Cask](https://caskroom.github.io/):
 
   ```
-  $ brew cask install jupyter-notebook-viewer
+  $ brew install --cask jupyter-notebook-viewer
   ```
 
 - Quick Look should work out of the box. If it doesn't, check
