@@ -33,6 +33,25 @@ class ViewController: NSViewController, NSTextFinderBarContainer
         textFinder.findBarContainer = self
     }
     
+    // MARK: Page Zoom -
+    var zoomAmount = 1.0 {
+        didSet {
+            webview.evaluateJavaScript("document.body.style.zoom = '\(zoomAmount)'", completionHandler: nil)
+        }
+    }
+
+    @IBAction func makeTextLarger(_ sender: Any?) {
+        zoomAmount *= 1.1
+    }
+
+    @IBAction func makeTextSmaller(_ sender: Any?) {
+        zoomAmount /= 1.1
+    }
+
+    @IBAction func makeTextStandardSize(_ sender: Any?) {
+        zoomAmount = 1.0
+    }
+
     // MARK: Text Search -
     
     var textFinder: NSTextFinder = NSTextFinder()
