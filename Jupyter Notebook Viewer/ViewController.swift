@@ -9,9 +9,9 @@
 import Cocoa
 import WebKit
 
-class ViewController: NSViewController {
-
-    @IBOutlet weak var webview: WebView!
+class ViewController: NSViewController, NSTextFinderBarContainer
+{
+    @IBOutlet weak var webview: WKWebView!
     
     weak var document: Document? {
         let window = self.view.window!
@@ -27,9 +27,52 @@ class ViewController: NSViewController {
         if (templateString != nil) {
             let jsonString = self.document!.jsonString
             let html = templateString!.replacingOccurrences(of: "%notebook-json%", with: jsonString)
-            webview.mainFrame!.loadHTMLString(html, baseURL: resourceURL)
+            webview.loadHTMLString(html, baseURL: resourceURL)
+        }
+        textFinder.client = webview
+        textFinder.findBarContainer = self
+    }
+    
+    // MARK: Text Search -
+    
+    var textFinder: NSTextFinder = NSTextFinder()
+    
+    @IBAction override func performTextFinderAction(_ sender: Any?) {
+        guard let action = NSTextFinder.Action(rawValue: (sender as! NSMenuItem).tag) else {
+            return
+        }
+        textFinder.performAction(action)
+    }
+    
+    // MARK: NSTextFinderBarContainer
+    
+    var findBarView: NSView? {
+        didSet {
+            if let findBarView = findBarView {
+                findBarView.frame = NSMakeRect(0, self.view.bounds.height - findBarView.frame.height, self.view.bounds.width, findBarView.frame.height)
+            }
         }
     }
-
+    
+    var isFindBarVisible: Bool = false {
+        didSet {
+            if isFindBarVisible, let findBarView = findBarView {
+                self.view.addSubview(findBarView)
+            } else {
+                findBarView?.removeFromSuperview()
+            }
+        }
+    }
+    
+    func findBarViewDidChangeHeight() {
+        if let findBarView = findBarView {
+            findBarView.frame = NSMakeRect(0, self.view.bounds.height - findBarView.frame.height, self.view.bounds.width, findBarView.frame.height)
+        }
+    }
+    
+    func contentView() -> NSView? {
+        view
+    }
+    
 }
 
