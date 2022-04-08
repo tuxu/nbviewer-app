@@ -23,6 +23,14 @@
         <script type='application/javascript'>
             var doc = document.getElementById('doc');
             var nb = %notebook-json%;
+            if (!window.marked || !window.Prism || !window.katex) {
+                throw new Error('expecting libraries marked.js, Prism.js and KaTeX to be present');
+            }
+            const nbv = nbv_constructor(document, {
+                katex: window.katex,
+                prism: window.Prism,
+                marked: window.marked,
+            });
             nbv.render(nb, doc);
         </script>
     </body>
